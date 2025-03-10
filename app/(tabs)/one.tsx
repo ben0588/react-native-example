@@ -3,10 +3,10 @@ import { StyleSheet } from "react-native";
 import EditScreenInfo from "@/components/EditScreenInfo";
 import { Text, View } from "@/components/Themed";
 
-export default function TabTwoScreen() {
+export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab Two 2222</Text>
+      <Text style={styles.title}>Tab oneeee</Text>
       <View
         style={styles.separator}
         lightColor="#eee"

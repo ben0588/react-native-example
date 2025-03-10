@@ -1,17 +1,19 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
+    "strict": true, // 啟用嚴格型別檢查（建議）
+    // "noImplicitAny": true, // 防止變數沒有型別
+    // "jsx": "react-native", // 讓 TypeScript 支援 React Native 的 JSX
+    // "moduleResolution": "node",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
   ]
 }
